@@ -5,4 +5,8 @@ $conn = mysqli_connect(
     'vs01EGwzvtpAcqVPw98j',
     'bivrslvhvcnbmgomi3to'
 );
+
+if(isset($conn)){
+    echo 'DB esta conectada';
+}
 ?>
