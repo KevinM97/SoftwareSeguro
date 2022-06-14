@@ -7,6 +7,6 @@ $conn = mysqli_connect(
 );
 
 if(isset($conn)){
-    echo 'DB esta conectada';
+    // echo 'DB esta conectada';
 }
 ?>
