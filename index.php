@@ -14,9 +14,9 @@
         <div
         class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
         <div class="card p-4 text-light bg-dark mb-5">
-        <div class="card-header">
-        <h3>Iniciar sesión </h3>
-        </div>
+            <div class="card-header">
+                <h3>Iniciar sesión </h3>
+            </div>
         <div class="card-body w-100">
         <form name="login" action="" method="post">
         <div class="input-group form-group mt-3">
@@ -51,6 +51,6 @@
         </div>
         </div>
         </div>
-        </div>
+    </div>
 </body>
 </html>
