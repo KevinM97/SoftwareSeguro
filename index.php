@@ -18,7 +18,7 @@
         <h3>Iniciar sesión </h3>
         </div>
         <div class="card-body w-100">
-        <form name="login" action="" method="post">
+        <form name="login" action="login.php" method="post">
         <div class="input-group form-group mt-3">
         <div class="bg-secondary rounded-start">
         <span class="m-3"><i class="fas fa-user mt-2"></i></span>
