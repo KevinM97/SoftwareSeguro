@@ -13,7 +13,7 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
-    <title>CAMPUS</title>
+    <title>PREFERENCIAS</title>
 </head>
 
 <body>
@@ -51,20 +51,20 @@
         </div>
     </nav>
     <div class="d-flex flex-column p-3 justify-content-around text-center">
-        <h1 class="p-2">Campus</h1>
+        <h1 class="p-2">Preferencias</h1>
         <table class="table">
             <thead class="thead-dark">
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Nombre</th>
-                    <th scope="col">Dirección</th>                   
+                    <th scope="col">Fecha</th>
+                    <th scope="col">Observacion</th>                   
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>                
+                    <td>16/06/2022</td>
+               <td>SI</td>                
                 </tr>                
             </tbody>
         </table> 

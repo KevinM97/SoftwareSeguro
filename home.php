@@ -17,8 +17,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Desarrollo Seguro</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="home.php">Desarrollo Seguro</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,22 +28,23 @@
                     <a class="nav-link" href="campus.php">Campus <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Bar</a>
+                    <a class="nav-link" href="bar.php">Bar</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="menu.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Menu
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Preferencias</a>
-
+                        <a class="dropdown-item" href="menu.php">Menu</a>
+                        <a class="dropdown-item" href="preferencias.php">Preferencias</a>
                     </div>
+              
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Snack</a>
+                    <a class="nav-link" href="snack.php">Snack</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Buzón</a>
+                    <a class="nav-link " href="buzon.php">Buzón</a>
                 </li>
             </ul>
 
@@ -64,7 +65,7 @@
             <div class="card-body text-center">
                 <h5 class="card-title">Bar</h5>
 
-                <a href="#" class="btn btn-primary">Ir</a>
+                <a href="bar.php" class="btn btn-primary">Ir</a>
             </div>
 
         </div>
@@ -73,7 +74,7 @@
             <div class="card-body text-center">
                 <h5 class="card-title">Snack</h5>
 
-                <a href="#" class="btn btn-primary">Ir</a>
+                <a href="snack.php" class="btn btn-primary">Ir</a>
             </div>
         </div>
        
@@ -84,7 +85,7 @@
             <div class="card-body  text-center">
                 <h5 class="card-title">Buzon</h5>
 
-                <a href="#" class="btn btn-primary">Ir</a>
+                <a href="buzon.php" class="btn btn-primary">Ir</a>
             </div>
 
         </div>
@@ -93,7 +94,7 @@
             <div class="card-body text-center">
                 <h5 class="card-title">Menu</h5>
 
-                <a href="#" class="btn btn-primary">Ir</a>
+                <a href="menu.php" class="btn btn-primary">Ir</a>
             </div>
 
         </div>
@@ -101,8 +102,7 @@
             <img class="card-img-top" src="https://img.freepik.com/vector-gratis/supermercado-alimentos-estantes-berenjena-repollo-zanahoria-pimientos-cebollas-pan-maiz-patatas-compras-frescas-ilustracion-vectorial_1284-46271.jpg?t=st=1655395498~exp=1655396098~hmac=f458546ec7f0bf501b5b03ecc63ecb563577ed9f49cf8e0c7e9d52e1905a7d6f&w=900" alt="Card image cap">
             <div class="card-body text-center">
                 <h5 class="card-title">Preferencias</h5>
-
-                <a href="#" class="btn btn-primary">Ir</a>
+                <a href="preferencias.php" class="btn btn-primary">Ir</a>
             </div>
         </div>
        

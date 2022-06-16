@@ -13,11 +13,11 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
-    <title>CAMPUS</title>
+    <title>Menú</title>
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="home.php">Desarrollo Seguro</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -38,7 +38,7 @@
                         <a class="dropdown-item" href="menu.php">Menu</a>
                         <a class="dropdown-item" href="preferencias.php">Preferencias</a>
                     </div>
-              
+
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="snack.php">Snack</a>
@@ -51,23 +51,26 @@
         </div>
     </nav>
     <div class="d-flex flex-column p-3 justify-content-around text-center">
-        <h1 class="p-2">Campus</h1>
+        <h1 class="p-2">Menú</h1>
         <table class="table">
             <thead class="thead-dark">
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Nombre</th>
-                    <th scope="col">Dirección</th>                   
+                    <th scope="col">Precio</th>
+                    <th scope="col">Disponible</th>
+                    <th scope="col">Descripción</th>
+
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <th scope="row">1</th>
                     <td>Mark</td>
-                    <td>Otto</td>                
-                </tr>                
+                    <td>Otto</td>
+                </tr>
             </tbody>
-        </table> 
+        </table>
 
 
     </div>
