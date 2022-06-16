@@ -44,12 +44,7 @@
         <div class="text-danger"><?php echo $loginResult;?></div>
         <?php }?>
         </div>
-        <div class="card-footer">
-        <div class="d-flex justify-content-center">
-        <div class="text-primary">Si es un usuario registrado, inicie sesión aquí.</div>
-        </div>
-        </div>
-        </div>
+        
         </div>
         </div>
 </body>
