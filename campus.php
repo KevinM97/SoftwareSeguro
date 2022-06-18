@@ -1,3 +1,8 @@
+<?php
+require 'db.php';
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -61,11 +66,19 @@
                 </tr>
             </thead>
             <tbody>
+            <?php
+                $sql = "SELECT * from campus";
+                $result = mysqli_query($conn,$sql);
+            while($mostrar=mysqli_fetch_array($result)){
+            ?>
                 <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>                
-                </tr>                
+                    <th scope="row"><?php echo $mostrar['cam_id'] ?></th>
+                    <td><?php echo $mostrar['cam_nombre'] ?></td>
+                    <td><?php echo $mostrar['cam_direccion'] ?></td>
+                </tr>
+                <?php
+                    }
+                ?>                
             </tbody>
         </table> 
 
