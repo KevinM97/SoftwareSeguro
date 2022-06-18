@@ -4,7 +4,7 @@
     $usuario = "ux3s6yt0aynviuls";
     $clave = "vs01EGwzvtpAcqVPw98j";
     $bd = "bivrslvhvcnbmgomi3to";
-
+    $for = "";
     $conn = mysqli_connect($host,$usuario,$clave,$bd);
         
 ?>
