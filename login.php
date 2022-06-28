@@ -48,13 +48,13 @@ if(!empty($_POST['name']) && !empty($_POST['pasword'])){
                             <div class="bg-secondary rounded-start">
                                 <span class="m-3"><i class="fas fa-user mt-2"></i></span>
                             </div>
-                            <input type="text" class="form-control" placeholder="Usuario" name="user">
+                            <input type="text" class="form-control"  pattern="[A-Za-z-_0-9]{2,15}" require placeholder="Usuario" name="user">
                         </div>
                         <div class="input-group form-group mt-3">
                             <div class="bg-secondary rounded-start">
                                 <span class="m-3"><i class="fas fa-key mt-2"></i></span>
                             </div>
-                            <input type="password" class="form-control" placeholder="Contraseña" name="password">
+                            <input type="password" class="form-control" pattern="[A-Za-z-_0-9]{3,12}" require placeholder="Contraseña" name="password">
                         </div>
 
                         <div class="form-group mt-3">
