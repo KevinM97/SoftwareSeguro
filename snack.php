@@ -1,6 +1,11 @@
 <?php
 require 'db.php';
 session_start();
+$usuario = $_SESSION['username'];
+
+if(!isset($usuario)){
+    header("location: login.php");
+}else{
 ?>
 
 <!DOCTYPE html>
@@ -93,3 +98,6 @@ session_start();
 </body>
 
 </html>
+<?php
+}
+?>
