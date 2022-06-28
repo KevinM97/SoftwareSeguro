@@ -2,6 +2,10 @@
 session_start();
 $usuario = $_SESSION['username'];
 
+if(!isset($usuario)){
+    header("location: login.php");
+}else{
+
 
 ?>
 
@@ -124,3 +128,7 @@ $usuario = $_SESSION['username'];
 </body>
 
 </html>
+
+<?php
+}
+?>
