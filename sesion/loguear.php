@@ -17,6 +17,7 @@ if($array['contar'] > 0){
 }
 else{
     echo "Credenciales incorrectas";
+    header("location: ../login.php");
 }
 
 
